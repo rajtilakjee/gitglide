@@ -1,13 +1,62 @@
+<!-- omit in toc -->
 # GitGlide
 Discover your Code Crush!
 
-GitGlide is an innovative FOSS app designed to revolutionize the way developers discover exciting projects on GitHub.
+![GitHub release (with filter)](https://img.shields.io/github/v/release/rajtilakjee/gitglide) &nbsp; ![GitHub License](https://img.shields.io/github/license/rajtilakjee/gitglide) &nbsp; ![GitHub Repo stars](https://img.shields.io/github/stars/rajtilakjee/gitglide) &nbsp; ![GitHub forks](https://img.shields.io/github/forks/rajtilakjee/gitglide) &nbsp; ![GitHub repo size](https://img.shields.io/github/repo-size/rajtilakjee/gitglide)
 
-Think of GitGlide as Tinder for developers. Just like the popular dating app which matches you with potential dates, GitGlide presents you with curated GitHub repositories based on your interests and skills. Swipe right if a project piques your interest, swipe left if it doesn’t sound intriguing enough. It’s that simple!
+GitGlide is an innovative FOSS app designed to help developers discover exciting projects on GitHub. Think of GitGlide as Tinder for developers. Just like the popular dating app which matches you with potential dates, GitGlide presents you with curated GitHub repositories based on your interests and skills. If you find a project interesting, click on the Like button, else move on to another project by clicking on Next.
 
-But GitGlide goes beyond simple swiping. As you continue to use the app, it’s AI-powered recommendation engine learns your preferences and tailors the projects you see. This means you’ll spend less time sifting through irrelevant repositories and more time making meaningful contributions to projects. You will also be able to save interesting projects for later consideration. Build your own personalized collection of potential contributions, allowing you to revisit them when you’re ready to dive in.
+<!-- omit in toc -->
+## Table of Content
 
-## Citation
+- [🚀 Installation](#-installation)
+- [⚠️ Usage](#️-usage)
+- [🛠️ Built With](#️-built-with)
+- [🛣️ Roadmap](#roadmap)
+- [🚸 Contributing](#-contributing)
+- [🪫 Versioning](#-versioning)
+- [🪪 License](#️-license)
+- [🎟️ Citation](#-citation)
+
+## 🚀 Installation
+
+```
+git clone https://github.com/rajtilakjee/gitglide
+
+pip install -r requirements.txt
+```
+
+## ⚠️ Usage
+```
+streamlit run src/main.py
+```
+
+## 🛠️ Built With
+
+1. Python
+2. Streamlit
+
+## 🛣️ Roadmap
+
+- [X] - Fetch random GitHub repo details
+- [X] - Like button
+- [ ] - Save liked repos
+- [ ] - Recommendation engine
+- [ ] - Summary of repo using LLM
+
+## 🚸 Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## 🪫 Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/rajtilakjee/gitglide/tags).
+
+## 🪪 License
+
+This project is licensed under the GPL-3.0 license, see the [LICENSE](LICENSE) file for details.
+
+## 🎟️ Citation
 ```
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
